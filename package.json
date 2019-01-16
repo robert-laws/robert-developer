@@ -4,7 +4,9 @@
   "description": "home page for robert-developer.com",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "default": "gulp serve"
   },
   "repository": {
     "type": "git",
@@ -31,3 +33,5 @@
     "gulp-sourcemaps": "^2.6.4"
   }
 }
+
+
