@@ -25,7 +25,10 @@
   },
   "homepage": "https://github.com/robert-laws/robert-developer#readme",
   "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.12",
     "gatsby": "^2.9.8",
+    "gatsby-plugin-emotion": "^4.0.7",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
