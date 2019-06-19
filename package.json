@@ -1,37 +1,36 @@
 {
   "name": "robert-developer",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "home page for robert-developer.com",
   "main": "gulpfile.js",
   "scripts": {
-    "clean": "gulp clean",
-    "build": "gulp build",
-    "default": "gulp serve"
+    "build": "gatsby build",
+    "develop": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/robert-laws/robert-developer.git"
   },
   "keywords": [
-    "html5",
-    "css3",
-    "javascript"
+    "gatsby"
   ],
   "author": "Robert Laws",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/robert-laws/robert-developer/issues"
   },
   "homepage": "https://github.com/robert-laws/robert-developer#readme",
+  "dependencies": {
+    "gatsby": "^2.9.8",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
   "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "del": "^3.0.0",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
-    "gulp-pug": "^4.0.1",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.4"
+    "cross-env": "^5.2.0",
+    "prettier": "^1.18.2"
   }
 }
-
-
