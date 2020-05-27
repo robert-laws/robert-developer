@@ -12,9 +12,12 @@ tags:
 
 **Date**: {{page.date.toUTCString()}}
 
-**Author**: {{ pkg.author }}
+**Author**: [{{ pkg.author }}](about)
+
+
 
 <ul>
+  <h4>List</h4>
   {% for item in tags %}
   <li>{{ item }}</li>
   {% endfor %}

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "website for development projects by robert laws",
   "scripts": {
+    "start": "eleventy --serve --quiet",
     "build": "eleventy",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
