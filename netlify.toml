@@ -1,5 +1,5 @@
 # Netlify instructions for my site
 
 [build]
-  publish = "_site"
+  publish = "dist"
   command = "eleventy"
