@@ -1,0 +1,4 @@
+baseURL = "https://www.robert-developer.com"
+languageCode = "en-us"
+title = "Robert Developer Website"
+theme = "anubis"
